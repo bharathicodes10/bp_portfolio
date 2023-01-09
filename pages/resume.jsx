@@ -66,17 +66,13 @@ const resume = () => {
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
+            <span className='px-2'>|</span>MongoDB
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span> Firebase
             <span className='px-2'>|</span> RESTAPI
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
-          </p>
+        
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
@@ -106,12 +102,12 @@ const resume = () => {
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
-        </h5>
+        </h5> */}
       
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -145,7 +141,7 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
