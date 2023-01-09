@@ -109,8 +109,8 @@ const resume = () => {
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+            <span className='font-bold'>Kongu Engineering College</span>
+            <span className='px-2'>|Perundurai,Erode</span>
           </p>
           <p className='py-1 italic'>Academic Excellence</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
