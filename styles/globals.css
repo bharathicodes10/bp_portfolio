@@ -10,9 +10,10 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+
 @layer base {
   body {
-    @apply bg-gradient-to-r from-blue-400 to-teal-200 text-black tracking-wide
+    @apply bg-gradient-to-b from-sky-400 to-sky-200 text-black tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
