@@ -71,7 +71,7 @@ const codeai = () => {
           </div>
         </div>
         <Link href='/#projects'>
-          <button classname="w-2 h-4 text-pink"><p className='underline cursor-pointer'>Back</p></button>
+          <button className="w-2 h-4 text-pink"><p className='underline cursor-pointer'>Back</p></button>
         </Link>
       </div>
     </div>

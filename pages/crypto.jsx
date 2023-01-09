@@ -73,7 +73,7 @@ const crypto = () => {
             </div>
           </div>
         </div>
-        <button classname='p-4 cursor-pointer'>
+        <button className='p-4 cursor-pointer'>
         <Link href='/#projects'>
           back
         </Link></button>
