@@ -10,7 +10,7 @@ import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import Codechef from '../public/assets/skills/codechef_logo.png'
 import hackerrank from '../public/assets/skills/hackerrank_logo.png'
-import leetcode from '../public/assets/skills/leetcode_logo.png'
+import leetcode from '../public/assets/skills/Leetcode_logo.png'
 import AWS from '../public/assets/skills/aws.png';
 
 const CodeProfile = () => {
