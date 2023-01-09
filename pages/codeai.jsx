@@ -70,9 +70,10 @@ const codeai = () => {
             </div>
           </div>
         </div>
+        <button className='p-4 cursor-pointer'>
         <Link href='/#projects'>
-          <button className="w-2 h-4 text-pink"><p className='underline cursor-pointer'>Back</p></button>
-        </Link>
+          back
+        </Link></button>
       </div>
     </div>
   );

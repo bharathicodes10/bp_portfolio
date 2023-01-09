@@ -26,21 +26,21 @@ const Projects = () => {
           <ProjectItem
             title='Portfolio webApp'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+            projectUrl='/bpportfolio'
             tech='Next JS'
 
           />
           <ProjectItem
             title='Construction Management Portal'
             backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            projectUrl='/cms'
             tech='MERN Stack'
 
           />
           <ProjectItem
             title='Online Cosmetics Shop'
             backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            projectUrl='/ocs'
             tech='PHP MYSQL'
 
           />

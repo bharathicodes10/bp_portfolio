@@ -4,7 +4,7 @@ import netflixImg from '../public/assets/projects/netflix.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const netflix = () => {
+const cms = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -71,12 +71,13 @@ const netflix = () => {
             </div>
           </div>
         </div>
+        <button className='p-4 cursor-pointer'>
         <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+          back
+        </Link></button>
       </div>
     </div>
   );
 };
 
-export default netflix;
+export default cms;
