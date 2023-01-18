@@ -9,7 +9,7 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center animate-fade-in-down'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-pink-600 italic'>
+          <p className='uppercase text-sm tracking-widest text-blue-800 italic'>
             WHAT WE THINK, WE BECOME
           </p>
           <h1 className='py-4 text-gray-700'>
