@@ -21,7 +21,7 @@ const CodeProfile = () => {
           Coding Profiles
         </p>
         <h2 className='py-4'>My coding profiles</h2>
-        <p>"Girls who code write the future"</p>
+        <p>Girls who code write the future</p>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
