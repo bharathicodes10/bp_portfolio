@@ -12,8 +12,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Bharathi | Full-Stack Developer</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
-        <link rel="icon" href="/fav.png" />
+        <meta name="description" content="I’m a web developer specializing in building full stack applications" />
+        <link rel="icon" href="/titleLogo2.png" />
       </Head>
     <Main />
     <About />

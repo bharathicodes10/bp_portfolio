@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-const resume = () => {
+const myProfile = () => {
   return (
     <>
       <Head>
@@ -16,8 +16,8 @@ const resume = () => {
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>MyProfile</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Bharathi Priya R</h2>
+        <div className='bg-gradient-to-r from-cyan-200 to-blue-500 my-4 p-4 w-full flex justify-between items-center'>
+          <h2 className='text-center text-black'>Bharathi Priya R</h2>
           <div className='flex'>
             <a
               href='https://www.linkedin.com/in/bharathi-priya-r-5294391b2'
@@ -126,4 +126,4 @@ const resume = () => {
   );
 };
 
-export default resume;
+export default myProfile;

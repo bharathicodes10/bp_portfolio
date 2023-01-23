@@ -5,13 +5,13 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg';
+import ContactImg from '../public/assets/contacts.jpg';
 
 const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen animate-fade-in-down'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-blue-800'>
+        <p className='text-xl tracking-widest uppercase text-cyan-500'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>

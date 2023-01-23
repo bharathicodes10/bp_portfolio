@@ -9,11 +9,12 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center animate-fade-in-down'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-blue-800 italic'>
+          <p className='uppercase text-sm  tracking-widest text-rose-800 italic'>
             WHAT WE THINK, WE BECOME
           </p>
-          <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Bharathi Priya</span>
+          <h1 className='py-4 text-cyan-300'>
+            Hi, I&#39;m <span className='bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-violet-500'> 
+            Bharathi Priya</span>
           </h1>
           <h1 className='py-2 text-red-700'>
           <Typical
@@ -29,7 +30,7 @@ const Main = () => {
                 loop={Infinity}
         />
            </h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+          <p className='py-4 text-white-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications
             integrating with back-end technologies.
           </p>
@@ -57,7 +58,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href='/myProfile'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>

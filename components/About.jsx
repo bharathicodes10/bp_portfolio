@@ -8,7 +8,7 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 animate-fade-in-down'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-blue-800'>
+          <p className='uppercase text-xl tracking-widest text-cyan-500'>
             About
           </p>
           <h2 className='py-4'>Who Am I</h2>
@@ -24,7 +24,7 @@ const About = () => {
             I have built some web applications in the past few years.In my spare
             time I practice problem solving on hackerrank,leetcode, and codechef. 
           </p>
-          <button className='p-5'> <a href='https://drive.google.com/file/d/1iJmJqJQJ1rennIYlmHmF9SDeoZIPXW2c/view?usp=share_link'>See my Resume</a></button>
+          <button className='p-5'> <a href='https://drive.google.com/file/d/1pVpsUGkYA63oheEaAMpIiS_gF67Unf1s/view?usp=share_link'>See my Resume</a></button>
           {/* <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
