@@ -16,7 +16,7 @@ const Main = () => {
             Hi, I&#39;m <span className='bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-violet-500'> 
             Bharathi Priya</span>
           </h1>
-          <h1 className='py-2 text-red-700'>
+          <h1 className='py-2 text-yellow-300'>
           <Typical
              steps={[
                   'A web developer',
