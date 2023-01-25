@@ -117,8 +117,6 @@ const myProfile = () => {
             <li>
               With a CGPA of 9.43 I have secured academic excellence award many times.
             </li>
-            
-            
           </ul>
         </div>
       </div>
