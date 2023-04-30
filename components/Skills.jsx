@@ -3,10 +3,10 @@ import React from 'react';
 import Html from '../public/assets/skills/html.png';
 import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
-import ReactImg from '../public/assets/skills/react.png';
+import ReactImg from '../public/assets/skills/React-Icon-Black.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
-import Firebase from '../public/assets/skills/firebase.png';
+import Firebase from '../public/assets/skills/DotNet.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import Codechef from '../public/assets/skills/codechef_logo.png'
 import hackerrank from '../public/assets/skills/hackerrank_logo.png'
@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-cyan-500'>
+        <p className='text-xl tracking-widest uppercase text-yellow-500'>
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
@@ -78,7 +78,7 @@ const Skills = () => {
                 <Image src={Firebase} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+                <h3>.NET</h3>
               </div>
             </div>
           </div>

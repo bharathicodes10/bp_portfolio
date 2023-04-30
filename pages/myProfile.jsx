@@ -85,7 +85,7 @@ const myProfile = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              STEP workshop by Sirius software solutions
+              STEP workshop by Sirius Computer Solutions
             </span>
             <span className='px-2'>|</span>Kongu Engineering College, Erode
           </p>
