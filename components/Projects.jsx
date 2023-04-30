@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/coffee.png';
-import cryptoImg from '../public/assets/projects/crypto.png'
-import netflixImg from '../public/assets/projects/netflix.png'
-import twitchImg from '../public/assets/projects/twitch.png'
+import coffeeImg from '../public/assets/projects/coffee.png';
+import codeImg from '../public/assets/projects/code-ai.png';
+import myportfolioImg from '../public/assets/projects/myportfolio.png'
+import constructionImg from '../public/assets/projects/construction.png'
+import cosmeticsImg from '../public/assets/projects/cosmetics.png'
 
 import ProjectItem from './ProjectItem';
 
@@ -19,27 +20,33 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='CoffeeShop'
-            backgroundImg={propertyImg}
+            backgroundImg={coffeeImg}
             projectUrl='/coffee'
             tech='ASP .NET and C#'
           />
+           <ProjectItem
+            title='CodeAI'
+            backgroundImg={codeImg}
+            projectUrl='/codeai'
+            tech='Vite.js and OpenAI'
+          />
           <ProjectItem
             title='Portfolio webApp'
-            backgroundImg={cryptoImg}
+            backgroundImg={myportfolioImg}
             projectUrl='/bpportfolio'
             tech='Next JS'
 
           />
           <ProjectItem
             title='Construction Management Portal'
-            backgroundImg={netflixImg}
+            backgroundImg={constructionImg}
             projectUrl='/cms'
             tech='MERN Stack'
 
           />
           <ProjectItem
             title='Online Cosmetics Shop'
-            backgroundImg={twitchImg}
+            backgroundImg={cosmeticsImg}
             projectUrl='/ocs'
             tech='PHP MYSQL'
 
