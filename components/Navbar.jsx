@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo2.png'
+import NavLogo from '../public/assets/navLogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -67,7 +67,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: 'black' }} className='hidden md:flex'>
+          <ul className='hidden md:flex text-black'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>
@@ -92,7 +92,7 @@ const Navbar = () => {
           </ul>
           {/* Hamburger Icon */}
           <div
-            style={{ color: `cyan` }}
+            style={{ color: `black` }}
             onClick={handleNav}
             className='md:hidden'
           >
@@ -112,7 +112,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-r from-blue-700 to-black p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-r from-cyan-200 to-blue-500 p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -130,7 +130,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-black p-3 cursor-pointer'
               >
                 <AiOutlineClose />
               </div>
@@ -175,7 +175,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-cyan-300'>
+              <p className='uppercase tracking-widest text-black'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>

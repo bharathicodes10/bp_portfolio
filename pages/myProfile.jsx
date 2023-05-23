@@ -11,7 +11,7 @@ const myProfile = () => {
           name='description'
           content='I’m a full stack developer who is also into ML specializing in building web apps and learning data analytics'
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel='icon' href='/bplogo1.png' />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>

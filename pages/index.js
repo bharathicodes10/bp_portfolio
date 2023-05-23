@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Bharathi | Full-Stack Developer</title>
         <meta name="description" content="I’m a web developer specializing in building full stack applications" />
-        <link rel="icon" href="/titleLogo2.png" />
+        <link rel="icon" href="/bplogo1.png" />
       </Head>
     <Main />
     <About />

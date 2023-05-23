@@ -12,7 +12,7 @@ const Main = () => {
           <p className='uppercase text-sm  tracking-widest text-yellow-300 italic'>
             NEVER STOP LEARNING
           </p>
-          <h1 className='py-4 text-cyan-300'>
+          <h1 className='py-4 text-cyan-500'>
             Hi, I&#39;m <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'> 
             Bharathi Priya</span>
           </h1>

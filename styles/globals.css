@@ -13,7 +13,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-blue-800 to-blue-200 text-white tracking-wide
+    @apply bg-gradient-to-r from-cyan-200 to-blue-500 text-black tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
