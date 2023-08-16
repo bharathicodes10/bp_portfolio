@@ -9,14 +9,14 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center animate-fade-in-down'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm  tracking-widest text-yellow-300 italic'>
+          <p className='uppercase text-sm font-semibold tracking-widest text-rose-600 italic'>
             NEVER STOP LEARNING
           </p>
           <h1 className='py-4 text-cyan-500'>
             Hi, I&#39;m <span className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500'> 
             Bharathi Priya</span>
           </h1>
-          <h1 className='py-2 text-yellow-300'>
+          <h1 className='py-2 text-rose-600'>
           <Typical
              steps={[
                   'A web developer',

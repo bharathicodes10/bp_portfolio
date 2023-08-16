@@ -13,7 +13,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-cyan-200 to-blue-500 text-black tracking-wide
+    @apply bg-gradient-to-r from-white to-rose-200 text-black tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -33,6 +33,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-blue-500 text-black
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-rose-500 to-rose-200 text-black
   }
 }

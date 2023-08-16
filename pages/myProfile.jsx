@@ -16,7 +16,7 @@ const myProfile = () => {
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>MyProfile</h2>
-        <div className='bg-gradient-to-r from-cyan-200 to-blue-500 my-4 p-4 w-full flex justify-between items-center'>
+        <div className='bg-gradient-to-r from-rose-200 to-pink-500 my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center text-black'>Bharathi Priya R</h2>
           <div className='flex'>
             <a
@@ -115,7 +115,7 @@ const myProfile = () => {
           <p className='py-1 italic'>Academic Excellence</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              With a CGPA of 9.43 I have secured academic excellence award many times.
+              With a CGPA of 9.39 I have secured academic excellence award many times.
             </li>
           </ul>
         </div>
