@@ -13,12 +13,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who Am I</h2>
           <p className='py-2 text-black-600'>
-            I specialize in building full stack application using latest technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Since I am a quick learner, I can pick up new 
-            tech stacks as needed. I believe that adaptability, the ability to learn quickly and choosing the right
-            approach to solve a problem are some of the essential skills of a developer.  I also believe that being 
-            a great developer is not using one specific language, but choosing the best tool for the job.
+          Building full stack applications with the newest technologies is my area of expertise. I have a strong desire to learn new technology and see that there are other approaches to completing a task. I can pick up new tech stacks as needed because I am a quick learner. Some of the most important abilities for a developer, in my opinion, are flexibility, quick learning, and problem-solving aptitude. Additionally, I think that a great developer is someone who chooses the right tool for the job rather than sticking to a single language.
           </p>
           <p className='py-2 text-black-600'>
             I have built some web applications in the past few years.In my spare

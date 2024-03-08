@@ -115,7 +115,7 @@ const myProfile = () => {
           <p className='py-1 italic'>Academic Excellence</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              With a CGPA of 9.39 I have secured academic excellence award many times.
+              With a CGPA of 9.19 I have secured academic excellence award many times.
             </li>
           </ul>
         </div>

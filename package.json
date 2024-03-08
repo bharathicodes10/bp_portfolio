@@ -1,5 +1,5 @@
 {
-  "homepage":"https://bharathicodes10.github.io/my_portfolio",
+  "homepage": "https://bharathicodes10.github.io/my_portfolio",
   "name": "portfolio-nextjs",
   "version": "0.1.0",
   "private": true,
@@ -9,10 +9,14 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
- 
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.18",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
     "firebase": "^9.8.3",
     "next": "12.1.6",
     "react": "18.1.0",

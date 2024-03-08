@@ -36,3 +36,41 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-rose-500 to-rose-200 text-black
   }
 }
+
+
+@layer components {
+  .dark-mode body  {
+    @apply bg-gradient-to-r from-black to-rose-300;
+  }
+  .dark-mode {
+    @apply bg-gray-900 text-white tracking-wide;
+  }
+
+  .dark-mode button {
+    @apply bg-gradient-to-r from-gray-900 to-gray-800 text-white;
+  }
+
+  .dark-mode h1, .dark-mode h2 {
+    @apply text-white;
+  }
+
+  .dark-mode a {
+    @apply text-white;
+  }
+
+  .dark-mode a:hover {
+    @apply text-gray-300;
+  }
+
+  .dark-mode p {
+    @apply text-gray-300;
+  }
+}
+
+@layer utilities {
+  .dark-mode  {
+    @apply bg-gradient-to-r from-black to-rose-300;
+  }
+}
+
+
