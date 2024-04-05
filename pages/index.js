@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bharathi | Full-Stack Developer</title>
+        <title>Bharathi | Full - Stack Developer </title>
         <meta name="description" content="I’m a web developer specializing in building full stack applications" />
-        <link rel="icon" href="/bplogo1.png" />
+        <link rel="icon" href="/navlogo.png" height="12px" width="15px"/>
       </Head>
     <Main />
     <About />

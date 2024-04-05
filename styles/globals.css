@@ -73,4 +73,39 @@ html {
   }
 }
 
+/* Add a custom cursor style */
+/* Add a glittery trail effect */
+.cursor-trail {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  z-index: 9999;
+  pointer-events: none;
+  animation: glitter 1s infinite alternate;
+  box-shadow: 0 0 10px #ffe669; /* Adjust color as needed */
+}
+
+@keyframes glitter {
+  0% {
+    box-shadow: 0 0 10px #ffe669, 0 0 20px #ffe669, 0 0 30px #ffe669; /* Adjust color and size as needed */
+  }
+  50% {
+    box-shadow: 0 0 20px #ffe669, 0 0 40px #ffe669, 0 0 60px #ffe669; /* Adjust color and size as needed */
+  }
+  100% {
+    box-shadow: 0 0 10px #ffe669, 0 0 20px #ffe669, 0 0 30px #ffe669; /* Adjust color and size as needed */
+  }
+}
+
+
+/* Add hover effect */
+.cursor-trail:hover {
+  width: 20px; /* Adjust size on hover */
+  height: 20px; /* Adjust size on hover */
+  background-color: #ff1493; /* Adjust color on hover */
+}
+
+
 

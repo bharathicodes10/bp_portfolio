@@ -23,6 +23,21 @@ const Main = () => {
       htmlElement.classList.remove('dark-mode');
     }
   }, [isDarkMode]);
+
+  useEffect(() => {
+    const cursorTrail = document.querySelector(".cursor-trail");
+
+    const onMouseMove = (event) => {
+      cursorTrail.style.left = event.pageX + "px";
+      cursorTrail.style.top = event.pageY + "px";
+    };
+
+    document.addEventListener("mousemove", onMouseMove);
+
+    return () => {
+      document.removeEventListener("mousemove", onMouseMove);
+    };
+  }, []);
   
   const toggleDarkMode = () => {
     setIsDarkMode((prevMode) => !prevMode);
@@ -141,7 +156,8 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="https://drive.google.com/file/d/1pVpsUGkYA63oheEaAMpIiS_gF67Unf1s/view?usp=share_link">
+            <Link href="https://drive.google.com/file/d/1FBAmOJhRIDQ6nWmkXqYy2BXhT7K2RHiK/view?usp=drive_link">
+            {/* <Link href="https://drive.google.com/file/d/1pVpsUGkYA63oheEaAMpIiS_gF67Unf1s/view?usp=share_link"> */}
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
@@ -149,6 +165,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      <div className="cursor-trail"></div>
     </div>
   );
 };

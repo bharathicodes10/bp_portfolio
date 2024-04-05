@@ -67,7 +67,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul className='hidden md:flex text-black'>
+          <ul className='hidden md:flex text-black font-semibold'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>
