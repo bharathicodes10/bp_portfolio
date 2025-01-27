@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen animate-fade-in-down'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-rose-500'>
+        <p className='text-xl tracking-widest uppercase text-sky-500'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -135,7 +135,7 @@ const Contact = () => {
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-rose-600'
+                  className='text-sky-600'
                   size={30}
                 />
               </div>

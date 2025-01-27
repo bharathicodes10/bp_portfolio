@@ -13,7 +13,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-white to-rose-200 text-black tracking-wide
+    @apply bg-gradient-to-r from-sky-100 to-sky-200 text-black tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -33,14 +33,14 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-rose-500 to-rose-200 text-black
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-sky-500 to-sky-200 text-black
   }
 }
 
 
 @layer components {
   .dark-mode body  {
-    @apply bg-gradient-to-r from-black to-rose-300;
+    @apply bg-gradient-to-r from-black to-sky-300;
   }
   .dark-mode {
     @apply bg-gray-900 text-white tracking-wide;
@@ -69,7 +69,7 @@ html {
 
 @layer utilities {
   .dark-mode  {
-    @apply bg-gradient-to-r from-black to-rose-300;
+    @apply bg-gradient-to-r from-black to-sky-300;
   }
 }
 

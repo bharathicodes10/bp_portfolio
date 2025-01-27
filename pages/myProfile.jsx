@@ -16,7 +16,7 @@ const myProfile = () => {
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>MyProfile</h2>
-        <div className='bg-gradient-to-r from-rose-200 to-pink-500 my-4 p-4 w-full flex justify-between items-center'>
+        <div className='bg-gradient-to-r from-sky-200 to-pink-500 my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center text-black'>Bharathi Priya R</h2>
           <div className='flex'>
             <a

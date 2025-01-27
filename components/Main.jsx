@@ -61,10 +61,10 @@ const Main = () => {
         <Switch
           checked={isDarkMode}
           onChange={toggleDarkMode}
-          className="bg-rose-400 relative inline-flex h-8 w-16 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out "
+          className="bg-sky-400 relative inline-flex h-8 w-16 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out "
           
           // className={classNames(
-          //   isDarkMode ? "bg-green-100" : "bg-rose-200",
+          //   isDarkMode ? "bg-green-100" : "bg-sky-200",
           //   "relative inline-flex h-8 w-16 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out "
           // )}
         >
@@ -103,7 +103,7 @@ const Main = () => {
         </Switch>
           </div>
 
-          <p className="uppercase text-sm font-semibold tracking-widest text-rose-600 italic">
+          <p className="uppercase text-sm font-semibold tracking-widest text-sky-600 italic">
             NEVER STOP LEARNING
           </p>
           
@@ -114,7 +114,8 @@ const Main = () => {
               Bharathi Priya
             </span>
           </h1>
-          <h1 className="py-2 text-rose-600">
+         
+          <h1 className="py-2 text-sky-600">
             <Typical
               steps={[
                 "A web developer",
@@ -130,7 +131,7 @@ const Main = () => {
           </h1>
           <p className="py-4 text-white-600 sm:max-w-[70%] m-auto">
             I’m focused on building responsive front-end web applications
-            integrating with back-end technologies.
+            integrating with back-end technologies. Currently learning Devops!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
@@ -156,7 +157,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="https://drive.google.com/file/d/1FBAmOJhRIDQ6nWmkXqYy2BXhT7K2RHiK/view?usp=drive_link">
+            <Link href="https://drive.google.com/file/d/1iQ6ilqcvSYK5L3j_RjJXSs23Zy1ebX33/view?usp=drive_link">
             {/* <Link href="https://drive.google.com/file/d/1pVpsUGkYA63oheEaAMpIiS_gF67Unf1s/view?usp=share_link"> */}
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
