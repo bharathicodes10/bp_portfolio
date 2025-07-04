@@ -77,35 +77,30 @@ html {
 /* Add a glittery trail effect */
 .cursor-trail {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: transparent;
-  z-index: 9999;
+  background: radial-gradient(circle, #4e5be1 0%, transparent 70%);
   pointer-events: none;
-  animation: glitter 1s infinite alternate;
-  box-shadow: 0 0 10px #ffe669; /* Adjust color as needed */
+  z-index: 9999;
+  animation: glitter 1s ease-in-out forwards;
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes glitter {
   0% {
-    box-shadow: 0 0 10px #ffe669, 0 0 20px #ffe669, 0 0 30px #ffe669; /* Adjust color and size as needed */
-  }
-  50% {
-    box-shadow: 0 0 20px #ffe669, 0 0 40px #ffe669, 0 0 60px #ffe669; /* Adjust color and size as needed */
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    box-shadow: 0 0 6px #4e5be1, 0 0 12px #4e5be1, 0 0 18px #4e5be1;
   }
   100% {
-    box-shadow: 0 0 10px #ffe669, 0 0 20px #ffe669, 0 0 30px #ffe669; /* Adjust color and size as needed */
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    box-shadow: 0 0 0 #4e5be1;
   }
 }
 
-
-/* Add hover effect */
-.cursor-trail:hover {
-  width: 20px; /* Adjust size on hover */
-  height: 20px; /* Adjust size on hover */
-  background-color: #ff1493; /* Adjust color on hover */
-}
 
 
 
