@@ -75,7 +75,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 text-black'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/bqoenkmb'
+                action='https://getform.io/f/bejeqzra'
                 method='POST'
                 encType='multipart/form-data'
               >
