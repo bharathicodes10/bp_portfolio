@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
+import { IoDocumentTextOutline } from "react-icons/io5";
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
@@ -59,10 +60,10 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/myProfile'>
+                  <Link href='https://flowcv.com/resume/ajea8ub2s0ui'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <IoDocumentTextOutline size={18}/>
                       </div>
                     </a>
                   </Link>
@@ -123,9 +124,11 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <div className='p-2'>
+                <button className='w-full p-4 text-gray-100 mt-4 hover:bg-sky-500 hover:text-white rounded-lg hover:scale-110 transition-transform duration-300 hover:shadow-lg hover:shadow-sky-500'>
                   Send Message
                 </button>
+                </div>
               </form>
             </div>
           </div>

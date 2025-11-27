@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { Switch } from "@headlessui/react";
 import Typical from "react-typical";
@@ -160,7 +161,7 @@ const Main = () => {
             <Link href="https://flowcv.com/resume/ajea8ub2s0ui">
             {/* <Link href="https://drive.google.com/file/d/1pVpsUGkYA63oheEaAMpIiS_gF67Unf1s/view?usp=share_link"> */}
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill />
+                <IoDocumentTextOutline size={18} />
               </div>
             </Link>
           </div>

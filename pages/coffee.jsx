@@ -34,15 +34,15 @@ const codeai = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <button className='px-8 py-2 mt-4 mr-8 p-5 hover:bg-sky-500 hover:text-white rounded-lg hover:scale-110 transition-transform duration-300 hover:shadow-lg hover:shadow-sky-500'>Code</button>
           </a>
-          <a
+          {/* <a
             href='https://github.com/bharathicodes10/aspproject'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
+            <button className='px-8 py-2 mt-4 p-5 hover:bg-sky-500 hover:text-white rounded-lg hover:scale-110 transition-transform duration-300 hover:shadow-lg hover:shadow-sky-500'>Demo</button>
+          </a> */}
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
@@ -66,7 +66,7 @@ const codeai = () => {
             </div>
           </div>
         </div>
-        <button className='p-4 cursor-pointer'>
+        <button className='p-4 cursor-pointer p-5 hover:bg-sky-500 hover:text-white rounded-lg hover:scale-110 transition-transform duration-300 hover:shadow-lg hover:shadow-sky-500'>
         <Link href='/#projects'>
           back
         </Link></button>

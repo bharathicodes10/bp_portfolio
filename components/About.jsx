@@ -14,14 +14,19 @@ const About = () => {
       </p>
       <h2 className='py-4'>Who Am I</h2>
       <p className='py-2 px-2 text-black-600'>
-        Building full stack applications with the newest technologies is my area of expertise. I have a strong desire to learn new technology and see that there are other approaches to completing a task. I can pick up new tech stacks as needed because I am a quick learner. Some of the most important abilities for a developer, in my opinion, are flexibility, quick learning, and problem-solving aptitude. Additionally, I think that a great developer is someone who chooses the right tool for the job rather than sticking to a single language.
+       Hi, I’m Bharathi Priya R, a Full-Stack Developer and AI enthusiast with a strong foundation in software engineering, machine learning, and problem-solving. I graduated as valedictorian with a perfect academic record and completed an IEEE-published research project on early COPD prediction using deep transfer learning and respiratory audio analysis.
       </p>
       <p className='py-2 px-2 text-black-600'>
-        I have built some web applications in the past few years. In my spare time, I practice problem-solving on Hackerrank, LeetCode, and CodeChef. 
+        I’ve built end-to-end applications using modern web technologies, integrated AI systems, and contributed to real-world projects across full-stack development and data-driven research. My work reflects a balance of clean engineering, strong intuition, and technical depth.
       </p>
-      <button className='p-5'>
-        <a href='https://drive.google.com/file/d/1WqlQ_ed2rMxWEWc5mXNIxLMCO-5jCO9B/view?usp=drive_link'>See my Resume</a>
+       <p className='py-2 px-2 text-black-600'>
+       I’m currently exploring opportunities to contribute to impactful engineering teams, learn from world-class mentors, and build scalable, user-centric products.
+      </p>
+      <div className='pl-2'>
+            <button className='p-5 hover:bg-sky-500 hover:text-white rounded-lg hover:scale-110 transition-transform duration-300 hover:shadow-lg hover:shadow-sky-500'>
+        <a href='https://flowcv.com/resume/ajea8ub2s0ui'>See my Resume</a>
       </button>
+      </div>
       {/* <Link href='/#projects'>
         <p className='py-2 text-gray-600 underline cursor-pointer'>
           Check out some of my latest projects.

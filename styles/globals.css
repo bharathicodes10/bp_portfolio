@@ -101,6 +101,19 @@ html {
   }
 }
 
+html.dark-mode .mobile-drawer {
+  /* dark side drawer background */
+  @apply bg-gradient-to-r from-black to-sky-300; /* a nice deep slate/navy */
+  color: #f9fafb;
+}
+
+/* If the “Let’s Connect” text or links need stronger contrast: */
+html.dark-mode .mobile-drawer p,
+html.dark-mode .mobile-drawer li {
+  color: #f9fafb;
+}
+
+
 
 
 
