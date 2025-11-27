@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { IoDocumentTextOutline } from "react-icons/io5";
 // import { useRouter } from 'next/router';
-import NavLogo from "../public/assets/navLogo.png";
+import NavLogo from "../public/assets/Bharathilogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -50,8 +50,8 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt="/"
-              width="125"
-              height="50"
+              width="100"
+              height="100"
               className="cursor-pointer"
             />
           </a>
@@ -142,14 +142,14 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <a>
-                  <Image src={NavLogo} width="87" height="35" alt="/" />
+                  <Image src={NavLogo} width="95" height="95" alt="/" className="object-contain" />
                 </a>
               </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-black p-3 cursor-pointer"
               >
-                <AiOutlineClose />
+                <AiOutlineClose className="w-6 h-6" />
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
